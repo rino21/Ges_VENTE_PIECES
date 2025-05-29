@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Poppins Regular";
+    src: url('../assets/poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: "Poppins Bold";
+    src: url('../assets/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Poppins semiBold";
+    src: url('../assets/poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: "Poppins medium";
+    src: url('../assets/poppins/Poppins-Medium.ttf');
+}
+* {
+    font-family: 'Poppins Regular', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h5,span {
+    font-family: 'Poppins Bold';
+}
+
+h2 {
+    font-family: 'Poppins semiBold';
+}
+
+h6 {
+    font-family: 'Poppins Bold';
+}
+
+.menu nav {
+    width: 100%;
+    display: block;
+}
+.menu .nav-item {
+   border-radius:8px;
+   padding-left: 25px;
+   display: flex;
+   align-items: center;
+   color: rgba(255, 255, 255, 0.85);
+}
+
+.menu .nav-item:hover {
+    background-color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu .nav-item .nav-link {
+    margin-left: 8px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.095);
+    height: 10vh;
+}
+
+.btn-edit, .btn-delete, .btn-stock {
+    border-radius: 50px;
+}
+
+.shadow {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.095);
+}
